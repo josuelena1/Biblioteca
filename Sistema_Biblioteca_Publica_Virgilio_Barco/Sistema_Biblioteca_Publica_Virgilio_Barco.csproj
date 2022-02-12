@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{177A8832-242F-47DB-A1CC-873702E5CDF7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sistema_Biblioteca_Publica_Virgilio_Barco</RootNamespace>
+    <AssemblyName>Sistema_Biblioteca_Publica_Virgilio_Barco</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pantalla_10_Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_10_Usuarios.Designer.cs">
+      <DependentUpon>Pantalla_10_Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_11_Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_11_Empleados.Designer.cs">
+      <DependentUpon>Pantalla_11_Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_12_Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_12_Usuarios.Designer.cs">
+      <DependentUpon>Pantalla_12_Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_13_Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_13_Empleados.Designer.cs">
+      <DependentUpon>Pantalla_13_Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_14_Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_14_Empleados.Designer.cs">
+      <DependentUpon>Pantalla_14_Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_14_Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_14_Usuarios.Designer.cs">
+      <DependentUpon>Pantalla_14_Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_1_Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_1_Empleados.Designer.cs">
+      <DependentUpon>Pantalla_1_Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_1_Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_1_Usuarios.Designer.cs">
+      <DependentUpon>Pantalla_1_Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_2_Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_2_Empleados.Designer.cs">
+      <DependentUpon>Pantalla_2_Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_3_Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_3_Empleados.Designer.cs">
+      <DependentUpon>Pantalla_3_Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_4_Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_4_Empleados.Designer.cs">
+      <DependentUpon>Pantalla_4_Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_4_Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_4_Usuarios.Designer.cs">
+      <DependentUpon>Pantalla_4_Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_5_Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_5_Empleados.Designer.cs">
+      <DependentUpon>Pantalla_5_Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_6_Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_6_Empleados.Designer.cs">
+      <DependentUpon>Pantalla_6_Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_6_Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_6_Usuarios.Designer.cs">
+      <DependentUpon>Pantalla_6_Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_7.Designer.cs">
+      <DependentUpon>Pantalla_7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_8_Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_8_Empleados.Designer.cs">
+      <DependentUpon>Pantalla_8_Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_8_Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_8_Usuarios.Designer.cs">
+      <DependentUpon>Pantalla_8_Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_9_Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_9_Usuarios.Designer.cs">
+      <DependentUpon>Pantalla_9_Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_A.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_A.Designer.cs">
+      <DependentUpon>Pantalla_A.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_B.Designer.cs">
+      <DependentUpon>Pantalla_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_B_Empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_B_Empleado.Designer.cs">
+      <DependentUpon>Pantalla_B_Empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_B_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_B_Usuario.Designer.cs">
+      <DependentUpon>Pantalla_B_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_E.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_E.Designer.cs">
+      <DependentUpon>Pantalla_E.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla_U.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_U.Designer.cs">
+      <DependentUpon>Pantalla_U.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Pantalla_10_Usuarios.resx">
+      <DependentUpon>Pantalla_10_Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_11_Empleados.resx">
+      <DependentUpon>Pantalla_11_Empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_12_Usuarios.resx">
+      <DependentUpon>Pantalla_12_Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_13_Empleados.resx">
+      <DependentUpon>Pantalla_13_Empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_14_Empleados.resx">
+      <DependentUpon>Pantalla_14_Empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_14_Usuarios.resx">
+      <DependentUpon>Pantalla_14_Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_1_Empleados.resx">
+      <DependentUpon>Pantalla_1_Empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_1_Usuarios.resx">
+      <DependentUpon>Pantalla_1_Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_2_Empleados.resx">
+      <DependentUpon>Pantalla_2_Empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_3_Empleados.resx">
+      <DependentUpon>Pantalla_3_Empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_4_Empleados.resx">
+      <DependentUpon>Pantalla_4_Empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_4_Usuarios.resx">
+      <DependentUpon>Pantalla_4_Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_5_Empleados.resx">
+      <DependentUpon>Pantalla_5_Empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_6_Empleados.resx">
+      <DependentUpon>Pantalla_6_Empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_6_Usuarios.resx">
+      <DependentUpon>Pantalla_6_Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_7.resx">
+      <DependentUpon>Pantalla_7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_8_Empleados.resx">
+      <DependentUpon>Pantalla_8_Empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_8_Usuarios.resx">
+      <DependentUpon>Pantalla_8_Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_9_Usuarios.resx">
+      <DependentUpon>Pantalla_9_Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_A.resx">
+      <DependentUpon>Pantalla_A.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_B.resx">
+      <DependentUpon>Pantalla_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_B_Empleado.resx">
+      <DependentUpon>Pantalla_B_Empleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_B_Usuario.resx">
+      <DependentUpon>Pantalla_B_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_E.resx">
+      <DependentUpon>Pantalla_E.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_U.resx">
+      <DependentUpon>Pantalla_U.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
